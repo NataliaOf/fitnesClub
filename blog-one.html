@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пост</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="menu"><ul class="menu__list">
+            <li class="menu__list-item">
+              <a  class="menu__list-link" href="about.html">О нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a  class="menu__list-link" href="gallery.html">Галерея</a>
+            </li>
+            <li class="menu__list-item">
+              <a  class="menu__list-link" href="blog.html">Блог</a>
+            </li>
+          </ul></nav>
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <nav class="menu"><ul class="menu__list">
+
+            <li class="menu__list-item">
+              <a  class="menu__list-link" href="contact.html">Контакты</a>
+            </li>
+            <li class="menu__list-item">
+              <button  class="menu__list-btn">Записаться</button>
+            </li>
+          </ul></nav>
+          <div class="connect">
+            <div class="conBox">
+              <h4 class="connect__title">Записаться</h4>
+              <img  class="connect__close" src="images/path.svg" alt="">
+
+            </div>
+            <div id="message-info"></div>
+           <form  id="form" class="connect__form" action="">
+             <input  class="connect__form-input _req" type="text" name="user_name" placeholder="Ваше имя*">
+             <input  class="connect__form-input _req _email" type="email" name="user_email" placeholder="Ваш email*">
+             <textarea class="connect__form-area" name="message" placeholder="Сообщение"></textarea>
+             <button  class="connect__form-btn" type="submit">Отправить</button>
+           </form>
+          </div>
+          <button class="header__btn">
+            <img src="images/icon_menu.svg" alt="icon menu">
+          </button>
+          <button class="header__btn-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+          </button>
+          <div class="rightsite-menu rightsite-menu--close">
+            <button class="rightsite-menu__close">
+            <img src="images/path.svg" alt="">
+            </button>
+            <div class="rightsite-menu__content">
+              <a  class="rightsite-menu__logo" href="">
+                <img src="images/logo-big.png" alt="logo">
+              </a>
+              <h3 class="rightsite-menu__titel">
+                Фитнесс клуб
+              </h3>
+              <p class="rightsite-menu__text">
+              Членские карты фитнесс клуба имеют ряд преимуществ
+              </p>
+              <img class="rightsite-menu__images" src="images/content/workout1.jpg" alt="images">
+              <h6 class="rightsite-menu__more">Подробнее по телефону:</h6>
+              <a class="rightsite-menu__phone" href="tel:4158297934725">(415) 829-7934 725</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a  class="breadcrumbs__link" href="#">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a  class="breadcrumbs__link" href="blog.html">Пост</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <section class="blog blog-one">
+        <div class="container">
+          <div class="blog__inner">
+          <div class="blog__items">
+            <div class="blog__item blog-one__item">
+              <img class="blog__item-img" src="images/blog/1.jpg" alt="img">
+              <div class="blog__item-info">
+                <span class="blog__item-date"></span>August 15, 2020 |
+                <a class="blog__item-author" href="#"></a>Анна Симс |
+                <a class="blog__item-theme" href="#"></a>Здоровое питание
+
+              </div>
+              <a class="blog__item-link" href="#">
+                <h3 class="blog__item-title" href="#">
+                  Почему витамины так важны?
+                </h3>
+              </a>
+               <div class="blog-one__text">
+                 <p>
+                   Витамины – это ряд низкомолекулярных органических соединений,
+                   которые не несут питательной ценности (то есть не служат источниками
+                    калорий), но являются необходимыми для поддержания жизнедеятельности
+                     организма. Роль витаминов в питании человека огромна.
+                     Потребности человеческого организма в основных витаминах на
+                     сегодняшний день хорошо изучены, при недостатке, а также при
+                     переизбытке тех или иных витаминов человек начинает чувствовать
+                     определённые неприятные симптомы. В прошлые же века авитаминоз
+                      уносил жизней не меньше, чем бандиты, дикие звери или стихийные
+                       бедствия – чего стоит только одна цинга, вызываемая недостатком
+                        витамина С в продуктах питания человека, или бери-бери, виной
+                        которой является нехватка витаминов группы В.
+                 </p>
+                 <blockquote class="blockquote">
+                   "Если я ем плохую еду, то чувствую себя неважно. Если ем
+                    натуральную, здоровую пищу, полную энергии, то чувствую себя
+                     наполненной энергией. Сегодня, завтра и через 20 лет питание
+                      стоит вашего внимания. Потому что питание – это здоровье,
+                       а здоровье – это все".
+                   <div class="blockquote-autor">
+                     Камерон Диаз, актриса
+                   </div>
+                 </blockquote>
+                 <p>
+                   Витамины – это ряд низкомолекулярных органических соединений,
+                   которые не несут питательной ценности (то есть не служат источниками
+                    калорий), но являются необходимыми для поддержания жизнедеятельности
+                     организма. Роль витаминов в питании человека огромна.
+                     Потребности человеческого организма в основных витаминах на
+                     сегодняшний день хорошо изучены, при недостатке, а также при
+                     переизбытке тех или иных витаминов человек начинает чувствовать
+                     определённые неприятные симптомы. В прошлые же века авитаминоз
+                      уносил жизней не меньше, чем бандиты, дикие звери или стихийные
+                       бедствия – чего стоит только одна цинга, вызываемая недостатком
+                        витамина С в продуктах питания человека, или бери-бери, виной
+                        которой является нехватка витаминов группы В.
+                 </p>
+               </div>
+               <div class="blog-one__tags">
+                 <h4 class="blog-one__tags-title">
+                   Tags
+                 </h4>
+                 <a class="blog-one__tags-link" href="#">Кардио тренировки</a>
+                 <a class="blog-one__tags-link" href="#">Тренажерный зал</a>
+                 <a class="blog-one__tags-link" href="#">Студия пилона</a>
+                 <a class="blog-one__tags-link" href="#">Груповые занятия</a>
+                 <a  class="blog__tags-link" href="#">Персональный тренер</a>
+
+               </div>
+               <div class="blog-one__links">
+                 <a class="blog-one__link-prev blog-one__link" href="#">
+                   <span>Здоровый образ жизни</span>
+                 </a>
+                 <a class="blog-one__link-next blog-one__link" href="#">
+                    <span>Фитнес програма для занятий дома</span>
+                 </a>
+               </div>
+
+            </div>
+            <div class="blog-one__comments" id="commentsBox">
+              <h4 class="blog-one__comments-title">
+                Комментарии:
+              </h4>
+              <div class="blog-one__comments-item">
+                <img class="blog-one__comments-avatar" src="images/content/avatar.jpg" alt="avatar" >
+                <div class="blog-one__comments-info">
+                  <p class="blog-one__comments-name">
+                     Лера Лагуненко
+                  </p>
+                  <p class="blog-one__comments-date">
+                    15.05.2021
+                  </p>
+                  <p class="blog-one__comments-text">
+                    Интересная статья, Много полезного узнала
+                  </p>
+
+
+                </div>
+                <button class="blog-one__comments-reply">Комментировать</button>
+              </div>
+            </div>
+            <form  class="blog-one__form">
+              <h4 class="blog-one__form-title">
+                Оставить комментарий
+              </h4>
+              <textarea class="blog-one__form-textarea" id="comment" placeholder="Коментарий"></textarea>
+              <input  class="blog-one__form-input" id="name" type="text" placeholder="Ваше имя">
+              <input  class="blog-one__form-input"  type="email" placeholder="Ваш email">
+              <label class="blog-one__form-label">
+                <input class="blog-one__form-labelinput" type="checkbox">
+                Запомнить меня
+              </label>
+               <button class="blog-one__form-btn" id="btnCom" type="button">Отправить</button>
+            </form>
+
+          </div>
+          <aside class="aside">
+
+            <form class="aside__search">
+              <input class="aside__search-input" type="text" placeholder="Поиск">
+              <button class="aside__search-btn" type="submit">
+                <img src="images/search-icon.svg" alt="search">
+              </button>
+            </form>
+
+            <div class="blog__categogy">
+              <h6 class="blog__categogy-title">Категории</h6>
+              <ul class="blog__categogy-list">
+                <li class="blog__categogy-item">
+                  <a  class="blog__categogy-link" href="#">
+                    Здоровое питание (1)
+                  </a>
+                </li>
+                <li class="blog__categogy-item">
+                  <a  class="blog__categogy-link" href="#">
+                    Комплекс (12)
+                  </a>
+                </li>
+                <li class="blog__categogy-item">
+                  <a  class="blog__categogy-link" href="#">
+                    Фитнес дома (2)
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="recent-posts">
+              <h6 class="recent-posts__title">Недавние Посты</h6>
+              <ul class="recent-posts__list">
+                <li class="recent-posts__item">
+                  <a  class="recent-posts__item-titel" href="#">
+                    Почему витамины так нужны?
+                  </a>
+                  <span class="recent-posts__date">August 10, 2020 </span>|
+                  <a  class="recent-posts__autor" href="#">Анна Симс</a>
+                </li>
+                <li class="recent-posts__item">
+                  <a class="recent-posts__item-titel" href="#">
+                    Фитнес програма для занятий дома
+                  </a>
+                  <span class="recent-posts__date">September 30 ,2020 </span> |
+                  <a  class="recent-posts__autor" href="#">Сергей Жуков</a>
+                </li>
+                <li class="recent-posts__item">
+                  <a  class="recent-posts__item-titel" href="#">
+                    Здоровый образ жизни
+                  </a>
+                  <span class="recent-posts__date">May 2, 2020 </span>|
+                  <a  class="recent-posts__autor" href="#">Анна Симс</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="blog__tags">
+              <h6 class="blog__tags-title">
+                Теги
+              </h6>
+              <a  class="blog__tags-link" href="#">Кардио тренировки</a>
+              <a  class="blog__tags-link" href="#">Тренажерный зал</a>
+              <a  class="blog__tags-link" href="#">Студия пилона</a>
+              <a  class="blog__tags-link" href="#">Груповые занятия</a>
+              <a  class="blog__tags-link" href="#">Персональный тренер</a>
+
+            </div>
+
+            <ul class="blog__social">
+              <li class="blog__social-item">
+                <a  class="blog__social-link" href="#">
+                  <img  class="blog__social-logo" src="images/facebook.svg" alt="social">
+                </a>
+              </li>
+              <li class="blog__social-item">
+                <a  class="blog__social-link" href="#">
+                  <img  class="blog__social-logo" src="images/instagram.svg" alt="social">
+                </a>
+              </li>
+              <li class="blog__social-item">
+                <a  class="blog__social-link" href="#">
+                  <img  class="blog__social-logo" src="images/pinterest.svg" alt="social">
+                </a>
+              </li>
+              <li class="blog__social-item">
+                <a  class="blog__social-link" href="#">
+                  <img  class="blog__social-logo" src="images/pinterest.svg" alt="social">
+                </a>
+              </li>
+              <li class="blog__social-item">
+                <a  class="blog__social-link" href="#">
+                  <img  class="blog__social-logo" src="images/youtube.svg" alt="social">
+                </a>
+              </li>
+            </ul>
+          </aside>
+         </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <h6 class="footer__info-titel">
+                Контакты
+              </h6>
+              <p class="footer__info-text">
+                Дополнительная информация по email
+
+              </p>
+              <a  class="info-email" href="mailto:ouremailaddress@email.com" >
+                ouremailaddress@email.com
+              </a>
+              <form class="footer__form" action="" >
+                <input class="footer__form-input" type="email" placeholder="Напишите свой email">
+                <butten class="footer__form-button" type="submit">Отправить</butten>
+              </form>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a  class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+            </li>
+              <li class="footer__social-item">
+                <a  class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+            </li>
+              <li class="footer__social-item">
+                <a  class="footer__social-link footer__social-link--pinterest" href="#">Pinterest</a>
+            </li>
+              <li class="footer__social-item">
+                <a  class="footer__social-link footer__social-link--whatsapp" href="#">WhatsApp</a>
+            </li>
+              <li class="footer__social-item">
+                <a  class="footer__social-link footer__social-link--youtube" href="#">Youtube</a>
+            </li>
+
+            </ul>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                 <li class="footer__menu-item">
+                   <a  class="footer__menu-link" href="aboun.html">О нас</a>
+                 </li>
+                 <li class="footer__menu-item">
+                   <a  class="footer__menu-link" href="gallery.html">Галерея</a>
+                 </li>
+                 <li class="footer__menu-item">
+                   <a  class="footer__menu-link" href="blog.html">Блог</a>
+                 </li>
+                 <li class="footer__menu-item">
+                   <a  class="footer__menu-link" href="contact.html">Контакты</a>
+                 </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyrigton">
+        <div class="container">
+          <p class="autor-name">
+            Oficerova Natalia 2021г
+          </p>
+          <a  class="autor-email" href="mailto:nataliaof380@gmail.com">
+           nataliaof380@gmail.com
+          </a>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
